@@ -1,10 +1,10 @@
 {
   "name": "react-floating-modals",
   "version": "1.0.0",
-  "description": "Drag-to-move modal & window manager for React – zero dependencies.",
+  "description": "Drag-to-move modal & window library for React with~ zero dependencies.",
   "author": "Maksym Chernetskyi",
   "license": "MIT",
-  "repository": "github:yourname/floating-window-manager",
+  "repository": "https://github.com/makschernetskyi/react-floating-modals",
   "keywords": [
     "react",
     "modal",

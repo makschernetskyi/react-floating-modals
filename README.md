@@ -1,10 +1,9 @@
-Thought for a couple of seconds
+# React Floating Modals
 
-```markdown
-# React Floating Modals 🪟✨
-A **zero-dependency**, batteries-included window system for React 18+.  
-Drag any window by any element, spawn unlimited instances, and let the provider keep the stack in order—all fully typed.
+This library was created as a small and reusable module to streamline usually tedious and long process of creating floating modals.
 
+key features: 
+* **zero-dependency** (except React itself of course) window library for React 18+.  
 * **Pointer-Events drag** – smooth on mouse, touch & pen.
 * **Headless styling** – bring your own CSS or Tailwind; nothing is hard-coded.
 * **Window manager** – one context handles z-index and cleanup.
@@ -105,6 +104,7 @@ const wm = useWindowManager();
 const id = wm.spawn(<Window />);   // open
 wm.focus(id);                      // bring to front
 wm.close(id);                      // close
+wm.closeAll()                      // close all open windows
 ```
 
 ---
@@ -122,20 +122,8 @@ Assign your own classes or inline styles. A minimal Tailwind look:
   >
     …
 ```
-
----
-
-## Roadmap
-
-* Bounding-box constraints.  
-* Optional backdrop / portal helper.  
-* Keyboard shortcuts (Esc = close, arrow = nudge).  
-
-PRs welcome!
-
 ---
 
 ## License
 
 MIT
-```
