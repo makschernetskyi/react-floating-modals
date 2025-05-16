@@ -1,6 +1,6 @@
 {
   "name": "react-floating-modals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drag-to-move modal & window library for React with~ zero dependencies.",
   "author": "Maksym Chernetskyi",
   "license": "MIT",
@@ -38,8 +38,9 @@
     "tsup": "^8.0.1",
     "typescript": "^5.5.2"
   },
+  "sideEffects": false,
   "scripts": {
-    "build": "tsup src/index.ts --dts --format esm,cjs --sourcemap",
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify --clean",
     "watch": "tsup src/index.ts --dts --format esm,cjs --sourcemap --watch",
     "prepare": "npm run build"
   },
