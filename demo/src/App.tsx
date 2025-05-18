@@ -67,7 +67,7 @@ const Launcher: React.FC = () => {
         color: '#fff',
         cursor: 'pointer'
       }}
-      onClick={() => wm.spawn(<DemoWindow />)}
+      onClick={() => wm.spawn(<DemoWindow />, false)}
     >
       Open Window
     </button>

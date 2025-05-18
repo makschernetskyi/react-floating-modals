@@ -102,6 +102,7 @@ Provides a store for all windows.
 const wm = useWindowManager();
 
 const id = wm.spawn(<Window />);   // open
+// wm.spawn has second optional argument - singleTone=true, if enabled, allows to create only single active instance of the same modal 
 wm.focus(id);                      // bring to front
 wm.close(id);                      // close
 wm.closeAll()                      // close all open windows

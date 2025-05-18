@@ -1,6 +1,6 @@
 {
   "name": "react-floating-modals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Drag-to-move modal & window library for React with~ zero dependencies.",
   "author": "Maksym Chernetskyi",
   "license": "MIT",
@@ -11,7 +11,10 @@
     "window",
     "window-manager",
     "drag",
-    "pointer-events"
+    "pointer-events",
+    "floating",
+    "draggable",
+    "draggable-window"
   ],
   "main":   "dist/index.js",              
   "module": "dist/index.mjs",            
